@@ -2,6 +2,18 @@
 <Workspace
    version = "1.0">
    <FileRef
+      location = "group:3WS.jpg">
+   </FileRef>
+   <FileRef
+      location = "group:check.png">
+   </FileRef>
+   <FileRef
+      location = "group:no.png">
+   </FileRef>
+   <FileRef
+      location = "group:yes.png">
+   </FileRef>
+   <FileRef
       location = "self:">
    </FileRef>
 </Workspace>
