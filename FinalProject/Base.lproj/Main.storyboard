@@ -11,12 +11,12 @@
         <!--Info-->
         <scene sceneID="K7N-C9-Mms">
             <objects>
-                <viewController id="wC9-ej-hdo" sceneMemberID="viewController">
+                <viewController id="wC9-ej-hdo" customClass="InfoTableView" customModule="FinalProject" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="vb0-t4-Tx6">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <tableView clipsSubviews="YES" contentMode="scaleToFill" misplaced="YES" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="dNx-W0-c8x">
+                            <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="dNx-W0-c8x">
                                 <rect key="frame" x="20" y="44" width="374" height="769"/>
                                 <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                                 <prototypes>
@@ -34,17 +34,20 @@
                         <viewLayoutGuide key="safeArea" id="LV5-H2-hF2"/>
                         <color key="backgroundColor" systemColor="secondarySystemBackgroundColor"/>
                         <constraints>
-                            <constraint firstItem="dNx-W0-c8x" firstAttribute="top" secondItem="LV5-H2-hF2" secondAttribute="top" id="Eg4-px-w8D"/>
-                            <constraint firstItem="dNx-W0-c8x" firstAttribute="centerX" secondItem="vb0-t4-Tx6" secondAttribute="centerX" id="Wma-V1-Tav"/>
-                            <constraint firstItem="dNx-W0-c8x" firstAttribute="leading" secondItem="LV5-H2-hF2" secondAttribute="leading" id="om2-OD-Sk0"/>
-                            <constraint firstItem="dNx-W0-c8x" firstAttribute="bottom" secondItem="LV5-H2-hF2" secondAttribute="bottom" id="wyI-h7-pPn"/>
+                            <constraint firstItem="dNx-W0-c8x" firstAttribute="top" secondItem="LV5-H2-hF2" secondAttribute="top" id="6Vd-gC-kGp"/>
+                            <constraint firstItem="dNx-W0-c8x" firstAttribute="leading" secondItem="vb0-t4-Tx6" secondAttribute="leadingMargin" id="Jky-Jw-6Py"/>
+                            <constraint firstItem="dNx-W0-c8x" firstAttribute="trailing" secondItem="vb0-t4-Tx6" secondAttribute="trailingMargin" id="UWg-iI-cAb"/>
+                            <constraint firstItem="dNx-W0-c8x" firstAttribute="bottom" secondItem="LV5-H2-hF2" secondAttribute="bottom" id="xIU-Gy-bZT"/>
                         </constraints>
                     </view>
                     <tabBarItem key="tabBarItem" title="Info" id="2si-pH-9ON"/>
+                    <connections>
+                        <outlet property="infoTable" destination="dNx-W0-c8x" id="ElL-Oi-zCt"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="R6n-Wv-tKc" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1855" y="530"/>
+            <point key="canvasLocation" x="1853.6231884057972" y="529.6875"/>
         </scene>
         <!--No Corona-->
         <scene sceneID="hi2-yT-mGN">
