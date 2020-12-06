@@ -93,4 +93,13 @@ class InfoTableView: UIViewController, UITableViewDataSource, UITableViewDelegat
         }
         return link
     }
+    
+    func tableView(_ tableView: UITableView, willDisplayHeaderView view: UIView, forSection section: Int) {
+
+         //For Header Background Color
+         view.tintColor = .black
+        // For Header Text Color
+        let header = view as! UITableViewHeaderFooterView
+        header.textLabel?.textColor = .systemYellow
+    }
 }
