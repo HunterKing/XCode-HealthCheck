@@ -2,6 +2,12 @@
 <Workspace
    version = "1.0">
    <FileRef
+      location = "group:/Users/hunter/Documents/School/3240/FinalProject/FinalProject/PassportView.swift">
+   </FileRef>
+   <FileRef
+      location = "group:/Users/hunter/Documents/School/3240/FinalProject/FinalProject/SymptomScreen.swift">
+   </FileRef>
+   <FileRef
       location = "group:/Users/hunter/Documents/School/3240/FinalProject/FinalProject/InfoTableView.swift">
    </FileRef>
    <FileRef

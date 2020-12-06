@@ -12,6 +12,8 @@
 		5A48FD2A257AF3160055260A /* yes.png in Resources */ = {isa = PBXBuildFile; fileRef = 5A48FD26257AF3150055260A /* yes.png */; };
 		5A48FD2B257AF3160055260A /* 3WS.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 5A48FD27257AF3150055260A /* 3WS.jpg */; };
 		5A48FD2E257BEF6B0055260A /* InfoTableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A48FD2D257BEF6B0055260A /* InfoTableView.swift */; };
+		5A48FD31257C06E10055260A /* SymptomScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A48FD30257C06E10055260A /* SymptomScreen.swift */; };
+		5A48FD34257C0A760055260A /* PassportView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A48FD33257C0A760055260A /* PassportView.swift */; };
 		5AE17356257AD2E6009E149B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5AE17355257AD2E6009E149B /* AppDelegate.swift */; };
 		5AE17358257AD2E6009E149B /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5AE17357257AD2E6009E149B /* SceneDelegate.swift */; };
 		5AE1735A257AD2E6009E149B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5AE17359257AD2E6009E149B /* ViewController.swift */; };
@@ -26,6 +28,8 @@
 		5A48FD26257AF3150055260A /* yes.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = yes.png; sourceTree = "<group>"; };
 		5A48FD27257AF3150055260A /* 3WS.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 3WS.jpg; sourceTree = "<group>"; };
 		5A48FD2D257BEF6B0055260A /* InfoTableView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = InfoTableView.swift; path = /Users/hunter/Documents/School/3240/FinalProject/FinalProject/InfoTableView.swift; sourceTree = "<absolute>"; };
+		5A48FD30257C06E10055260A /* SymptomScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = SymptomScreen.swift; path = /Users/hunter/Documents/School/3240/FinalProject/FinalProject/SymptomScreen.swift; sourceTree = "<absolute>"; };
+		5A48FD33257C0A760055260A /* PassportView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = PassportView.swift; path = /Users/hunter/Documents/School/3240/FinalProject/FinalProject/PassportView.swift; sourceTree = "<absolute>"; };
 		5AE17352257AD2E6009E149B /* FinalProject.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FinalProject.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5AE17355257AD2E6009E149B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		5AE17357257AD2E6009E149B /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -86,6 +90,8 @@
 				5AE1735E257AD2EB009E149B /* Assets.xcassets */,
 				5AE17360257AD2EB009E149B /* LaunchScreen.storyboard */,
 				5AE17363257AD2EB009E149B /* Info.plist */,
+				5A48FD30257C06E10055260A /* SymptomScreen.swift */,
+				5A48FD33257C0A760055260A /* PassportView.swift */,
 			);
 			path = FinalProject;
 			sourceTree = "<group>";
@@ -166,7 +172,9 @@
 			files = (
 				5AE1735A257AD2E6009E149B /* ViewController.swift in Sources */,
 				5A48FD2E257BEF6B0055260A /* InfoTableView.swift in Sources */,
+				5A48FD31257C06E10055260A /* SymptomScreen.swift in Sources */,
 				5AE17356257AD2E6009E149B /* AppDelegate.swift in Sources */,
+				5A48FD34257C0A760055260A /* PassportView.swift in Sources */,
 				5AE17358257AD2E6009E149B /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
