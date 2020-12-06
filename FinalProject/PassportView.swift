@@ -8,22 +8,14 @@
 import UIKit
 
 class PassportView: UIViewController {
+    let defaults = UserDefaults.standard
     @IBOutlet weak var dateLabel: UILabel!
     @IBOutlet weak var passportTimeStamp: UILabel!
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        let date = Date()
-        let dateFormatter = DateFormatter()
-        dateFormatter.timeZone = TimeZone(abbreviation: "EST")
-        dateFormatter.locale = NSLocale.current
-        dateFormatter.dateFormat = "EEEE, MMM d yyyy, h:mm a"
-        let strPassport = dateFormatter.string(from: date)
-        dateFormatter.dateFormat = "MM/d/YY"
-        let strDateLabel = dateFormatter.string(from: date)
-        
-        dateLabel.text = strDateLabel
-        passportTimeStamp.text = strPassport
+        dateLabel.text = defaults.string(forKey: "dateLabel")
+        passportTimeStamp.text = defaults.string(forKey: "passport")
         // Do any additional setup after loading the view.
     }
 }

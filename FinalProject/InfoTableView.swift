@@ -11,8 +11,8 @@ class InfoTableView: UIViewController, UITableViewDataSource, UITableViewDelegat
     
     @IBOutlet weak var infoTable: UITableView!
     
-    let infoArray = [["CDC", "Frequently Asked Questions", " How To Protect Yourself", "COVID Data Tracker"], ["Appalachian State", "General Info (Updated Daily)", "Latest Updates", "About COVID-19"], ["App Health Care", "Data Dashboard", "COVID-19 Testing", "Testing FAQ", "Dead Link"]]
-    let cdcLinkArray = ["https://www.cdc.gov/coronavirus/2019-ncov/faq.html", "https://www.cdc.gov/coronavirus/2019-ncov/prevent-getting-sick/prevention.html", "https://covid.cdc.gov/covid-data-tracker/#cases_casesper100klast7days"]
+    let infoArray = [["CDC", "What to Do If You Are Sick", "Frequently Asked Questions", " How To Protect Yourself", "COVID Data Tracker"], ["Appalachian State", "General Info (Updated Daily)", "Latest Updates", "About COVID-19"], ["App Health Care", "Data Dashboard", "COVID-19 Testing", "Testing FAQ", "Dead Link"]]
+    let cdcLinkArray = ["https://www.cdc.gov/coronavirus/2019-ncov/if-you-are-sick/steps-when-sick.html", "https://www.cdc.gov/coronavirus/2019-ncov/faq.html", "https://www.cdc.gov/coronavirus/2019-ncov/prevent-getting-sick/prevention.html", "https://covid.cdc.gov/covid-data-tracker/#cases_casesper100klast7days"]
     let appLinkArray = ["https://www.appstate.edu/go/coronavirus/", "https://www.appstate.edu/go/coronavirus/updates/", "https://www.appstate.edu/go/coronavirus/about-covid-19/"]
     let appHCLinkArray = ["https://www.apphealthcare.com/covid-19-information/covid-19-data-dashboard/", "https://www.apphealthcare.com/covid-19-information/covid-19-testing/", "https://www.apphealthcare.com/faqs-covid-19-testing/"]
     

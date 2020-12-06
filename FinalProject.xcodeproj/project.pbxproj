@@ -16,6 +16,7 @@
 		5A48FD34257C0A760055260A /* PassportView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A48FD33257C0A760055260A /* PassportView.swift */; };
 		5AB5E94D257C64C900C2CD9D /* definitelyno-transparent.png in Resources */ = {isa = PBXBuildFile; fileRef = 5AB5E94B257C64C900C2CD9D /* definitelyno-transparent.png */; };
 		5AB5E94E257C64C900C2CD9D /* definitelyyes-transparent.png in Resources */ = {isa = PBXBuildFile; fileRef = 5AB5E94C257C64C900C2CD9D /* definitelyyes-transparent.png */; };
+		5AB5E951257C73D700C2CD9D /* ContactController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5AB5E950257C73D700C2CD9D /* ContactController.swift */; };
 		5AE17356257AD2E6009E149B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5AE17355257AD2E6009E149B /* AppDelegate.swift */; };
 		5AE17358257AD2E6009E149B /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5AE17357257AD2E6009E149B /* SceneDelegate.swift */; };
 		5AE1735A257AD2E6009E149B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5AE17359257AD2E6009E149B /* ViewController.swift */; };
@@ -34,6 +35,7 @@
 		5A48FD33257C0A760055260A /* PassportView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = PassportView.swift; path = /Users/hunter/Documents/School/3240/FinalProject/FinalProject/PassportView.swift; sourceTree = "<absolute>"; };
 		5AB5E94B257C64C900C2CD9D /* definitelyno-transparent.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "definitelyno-transparent.png"; sourceTree = "<group>"; };
 		5AB5E94C257C64C900C2CD9D /* definitelyyes-transparent.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "definitelyyes-transparent.png"; sourceTree = "<group>"; };
+		5AB5E950257C73D700C2CD9D /* ContactController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactController.swift; sourceTree = "<group>"; };
 		5AE17352257AD2E6009E149B /* FinalProject.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FinalProject.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5AE17355257AD2E6009E149B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		5AE17357257AD2E6009E149B /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -98,6 +100,7 @@
 				5AE17363257AD2EB009E149B /* Info.plist */,
 				5A48FD30257C06E10055260A /* SymptomScreen.swift */,
 				5A48FD33257C0A760055260A /* PassportView.swift */,
+				5AB5E950257C73D700C2CD9D /* ContactController.swift */,
 			);
 			path = FinalProject;
 			sourceTree = "<group>";
@@ -181,6 +184,7 @@
 				5AE1735A257AD2E6009E149B /* ViewController.swift in Sources */,
 				5A48FD2E257BEF6B0055260A /* InfoTableView.swift in Sources */,
 				5A48FD31257C06E10055260A /* SymptomScreen.swift in Sources */,
+				5AB5E951257C73D700C2CD9D /* ContactController.swift in Sources */,
 				5AE17356257AD2E6009E149B /* AppDelegate.swift in Sources */,
 				5A48FD34257C0A760055260A /* PassportView.swift in Sources */,
 				5AE17358257AD2E6009E149B /* SceneDelegate.swift in Sources */,

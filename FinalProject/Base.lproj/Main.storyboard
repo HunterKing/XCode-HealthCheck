@@ -11,7 +11,7 @@
         <!--Info-->
         <scene sceneID="K7N-C9-Mms">
             <objects>
-                <viewController id="wC9-ej-hdo" customClass="InfoTableView" customModule="FinalProject" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="InfoController" useStoryboardIdentifierAsRestorationIdentifier="YES" id="wC9-ej-hdo" customClass="InfoTableView" customModule="FinalProject" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="vb0-t4-Tx6">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -49,10 +49,10 @@
             </objects>
             <point key="canvasLocation" x="1853.6231884057972" y="529.6875"/>
         </scene>
-        <!--No Corona-->
+        <!--Contact-->
         <scene sceneID="hi2-yT-mGN">
             <objects>
-                <viewController title="No Corona" id="FjY-EQ-kNG" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="ContactView" title="Contact" useStoryboardIdentifierAsRestorationIdentifier="YES" id="FjY-EQ-kNG" customClass="ContactController" customModule="FinalProject" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="pd8-dB-Ppr">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -61,6 +61,7 @@
                                 <rect key="frame" x="244" y="373" width="150" height="150"/>
                                 <state key="normal" backgroundImage="definitelyno-transparent.png"/>
                                 <connections>
+                                    <action selector="checkPassed:" destination="FjY-EQ-kNG" eventType="touchUpInside" id="lmu-MN-Fce"/>
                                     <segue destination="cKw-Bp-YlK" kind="show" id="xgN-u9-MPa"/>
                                 </connections>
                             </button>
@@ -108,7 +109,7 @@
         <!--No Corona-->
         <scene sceneID="zWi-K2-E8V">
             <objects>
-                <viewController title="No Corona" id="cKw-Bp-YlK" customClass="PassportView" customModule="FinalProject" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="PassportView" title="No Corona" useStoryboardIdentifierAsRestorationIdentifier="YES" id="cKw-Bp-YlK" customClass="PassportView" customModule="FinalProject" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="JO3-pB-Zlv">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -167,16 +168,16 @@
         <!--Had Contact-->
         <scene sceneID="Tf5-Dv-3ay">
             <objects>
-                <viewController title="Had Contact" id="IIL-u6-0qK" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="HadContactView" title="Had Contact" useStoryboardIdentifierAsRestorationIdentifier="YES" id="IIL-u6-0qK" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="Nb2-5X-Reh">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="rgf-XS-qcJ">
-                                <rect key="frame" x="20" y="115" width="374" height="296"/>
+                                <rect key="frame" x="20" y="115" width="374" height="307"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="374" id="1WZ-xU-klr"/>
-                                    <constraint firstAttribute="height" constant="296" id="UhR-9M-NUM"/>
+                                    <constraint firstAttribute="height" constant="307" id="UhR-9M-NUM"/>
                                 </constraints>
                                 <string key="text">Good catch! In order to prevent the spread, please do the following:
 
@@ -184,7 +185,7 @@
 2. Contact your healthcare provider to determine the appropriate course of treatment. Students should contact the Student Health Service at 828-262-3100.
 3. University employees should notify your supervisor or department chair.
 
-The CDC provides guidelines about what to do if you are sick, which you can access here.
+The CDC provides guidelines about what to do if you are sick, which you can access from the info tab.
 </string>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <nil key="textColor"/>
@@ -229,19 +230,19 @@ The CDC provides guidelines about what to do if you are sick, which you can acce
                             <constraint firstItem="rgf-XS-qcJ" firstAttribute="leading" secondItem="0Oq-k9-lk0" secondAttribute="leading" id="cqh-lo-Q3B"/>
                             <constraint firstItem="2EN-Bs-01d" firstAttribute="top" secondItem="0Oq-k9-lk0" secondAttribute="bottom" constant="8" symbolic="YES" id="dye-BS-sf2"/>
                             <constraint firstItem="rgf-XS-qcJ" firstAttribute="leading" secondItem="Nb2-5X-Reh" secondAttribute="leadingMargin" id="fXa-QV-LeF"/>
-                            <constraint firstItem="0Oq-k9-lk0" firstAttribute="top" secondItem="rgf-XS-qcJ" secondAttribute="bottom" constant="8" symbolic="YES" id="ymf-3i-DeT"/>
+                            <constraint firstItem="0Oq-k9-lk0" firstAttribute="top" secondItem="rgf-XS-qcJ" secondAttribute="bottom" constant="-3" id="ymf-3i-DeT"/>
                         </constraints>
                     </view>
                     <navigationItem key="navigationItem" id="tWP-Ed-enO"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="wLA-WE-XRa" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="4034" y="-144"/>
+            <point key="canvasLocation" x="4033.3333333333335" y="-144.64285714285714"/>
         </scene>
         <!--Symptom Check-->
         <scene sceneID="RNG-8z-yqD">
             <objects>
-                <viewController title="Symptom Check" id="T0u-3B-WIa" customClass="SymptomScreen" customModule="FinalProject" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="SymptomView" title="Symptom Check" useStoryboardIdentifierAsRestorationIdentifier="YES" id="T0u-3B-WIa" customClass="SymptomScreen" customModule="FinalProject" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="Ucu-az-vhX">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -318,16 +319,16 @@ The CDC provides guidelines about what to do if you are sick, which you can acce
         <!--Has Corona-->
         <scene sceneID="dw0-aA-yvw">
             <objects>
-                <viewController title="Has Corona" id="Y18-Tl-cJI" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="HasSymptomView" title="Has Corona" useStoryboardIdentifierAsRestorationIdentifier="YES" id="Y18-Tl-cJI" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="so7-DQ-PWA">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="7fp-xN-6ql">
-                                <rect key="frame" x="20" y="129" width="374" height="296"/>
+                                <rect key="frame" x="20" y="129" width="374" height="306"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="374" id="GXQ-QL-7bn"/>
-                                    <constraint firstAttribute="height" constant="296" id="bkh-VY-w2K"/>
+                                    <constraint firstAttribute="height" constant="306" id="bkh-VY-w2K"/>
                                 </constraints>
                                 <string key="text">We are sorry you are not feeling well, please do the following:
 
@@ -335,7 +336,7 @@ The CDC provides guidelines about what to do if you are sick, which you can acce
 2. Contact your healthcare provider to determine the appropriate course of treatment. Students should contact the Student Health Service at 828-262-3100.
 3. University employees should notify your supervisor or department chair.
 
-The CDC provides guidelines about what to do if you are sick, which you can access here.
+The CDC provides guidelines about what to do if you are sick, which you can access from the info tab.
 </string>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <nil key="textColor"/>
@@ -376,7 +377,7 @@ The CDC provides guidelines about what to do if you are sick, which you can acce
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                         <constraints>
                             <constraint firstItem="7fp-xN-6ql" firstAttribute="top" secondItem="MyV-Dm-7xe" secondAttribute="top" constant="41" id="DpT-5y-MXb"/>
-                            <constraint firstItem="xao-hC-GHT" firstAttribute="top" secondItem="7fp-xN-6ql" secondAttribute="bottom" constant="8" symbolic="YES" id="FYj-gC-q48"/>
+                            <constraint firstItem="xao-hC-GHT" firstAttribute="top" secondItem="7fp-xN-6ql" secondAttribute="bottom" constant="-2" id="FYj-gC-q48"/>
                             <constraint firstItem="ruA-j5-nlE" firstAttribute="top" secondItem="xao-hC-GHT" secondAttribute="bottom" constant="8" symbolic="YES" id="MK6-r7-lkj"/>
                             <constraint firstItem="7fp-xN-6ql" firstAttribute="leading" secondItem="xao-hC-GHT" secondAttribute="leading" id="ezW-4T-V1v"/>
                             <constraint firstItem="7fp-xN-6ql" firstAttribute="leading" secondItem="so7-DQ-PWA" secondAttribute="leadingMargin" id="qkp-eY-9rM"/>
@@ -392,7 +393,7 @@ The CDC provides guidelines about what to do if you are sick, which you can acce
         <!--Tab Bar Controller-->
         <scene sceneID="h48-mu-gws">
             <objects>
-                <tabBarController id="OOy-Nc-gKR" sceneMemberID="viewController">
+                <tabBarController storyboardIdentifier="TabBarController" useStoryboardIdentifierAsRestorationIdentifier="YES" id="OOy-Nc-gKR" sceneMemberID="viewController">
                     <tabBar key="tabBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="IeK-2x-Dll">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="49"/>
                         <autoresizingMask key="autoresizingMask"/>
@@ -410,7 +411,7 @@ The CDC provides guidelines about what to do if you are sick, which you can acce
         <!--Health Check Nav-->
         <scene sceneID="lym-K4-hxL">
             <objects>
-                <navigationController title="Health Check Nav" automaticallyAdjustsScrollViewInsets="NO" id="Lpc-0q-XoQ" sceneMemberID="viewController">
+                <navigationController storyboardIdentifier="NavController" title="Health Check Nav" automaticallyAdjustsScrollViewInsets="NO" useStoryboardIdentifierAsRestorationIdentifier="YES" id="Lpc-0q-XoQ" sceneMemberID="viewController">
                     <tabBarItem key="tabBarItem" title="Health Check" image="checkmark.circle" catalog="system" id="HoH-dH-rzE"/>
                     <toolbarItems/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" id="601-Yt-JPj">
